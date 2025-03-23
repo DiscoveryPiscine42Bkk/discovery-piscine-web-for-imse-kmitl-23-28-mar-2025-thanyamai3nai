@@ -1,0 +1,3 @@
+printf "Z\n" > z
+chmod 444 z
+cat z
