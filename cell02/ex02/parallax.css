@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.parallax1 {
+    background-image: url('https://preview.redd.it/37m1juv8u0nc1.jpg?width=792&format=pjpg&auto=webp&s=bcb4ea95b9c387b8ba00d0a569b21fb50911d0ea');
+}
+
+.parallax2 {
+    background-image: url('https://preview.redd.it/3mgh0079u0nc1.jpg?width=799&format=pjpg&auto=webp&s=4115bf387af569d006820da48f2959a2952f1b5d');
+}
+
+.content {
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
