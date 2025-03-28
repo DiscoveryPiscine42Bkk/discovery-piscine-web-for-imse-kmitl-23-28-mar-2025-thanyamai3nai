@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic information</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin-top: 56px;
+        }
+        .navbar {
+            background-color: #ffbcc3;
+            padding: 1rem 2rem;
+        }
+        .navbar .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .navbar .nav-link {
+            font-size: 1.2rem;
+        }
+        .section {
+            padding: 80px 0;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .contact-icons i {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homepage.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">home page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: ข้อมูลพื้นฐาน -->
+    <div class="section">
+        <div class="container">
+            <h2 class="text-center">Basic information</h2>
+            <div class="row">
+                <!-- Left side: Profile Picture -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="profile.jpg" alt="Profile Picture" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Thanyamai Ounjam</h5>
+                            <p class="card-text">Students of the Institute of Music Science and Engineering</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side: Personal Information -->
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Information</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Age:</strong>20</li>
+                                <li><strong>Education:</strong>IMSE(acoustic),KMITL</li>
+                                <li><strong>Hometown:</strong>BKK,THAILAND</li>
+                                <li><strong>Nationality:</strong> THAILAND</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Contact</h5>
+                            <div class="contact-icons">
+                                <a href="https://www.instagram.com/feqsch?igsh=OHd5emltNnZnZGls&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i> Instagram : fegsch</a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
